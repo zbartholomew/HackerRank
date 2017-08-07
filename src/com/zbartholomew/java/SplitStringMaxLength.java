@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * Created by Zach on 7/21/2017.
- */
-public class Test {
+public class SplitStringMaxLength {
 
     public static void main(String[] args) {
 
@@ -21,7 +18,6 @@ public class Test {
             System.out.println(s);
         } else {
             for (int i = 0; i < s.length(); i += maxStringLength) {
-
                 if ((i + maxStringLength) < s.length()) {
                     splitStrings.add(s.substring(i, i + maxStringLength));
                 } else {
@@ -31,7 +27,5 @@ public class Test {
 
             System.out.println(splitStrings);
         }
-
-        System.out.println("\nSubstring test - This test string = " + "This test string".substring(0,4) + "substring(0,4)");
     }
 }
