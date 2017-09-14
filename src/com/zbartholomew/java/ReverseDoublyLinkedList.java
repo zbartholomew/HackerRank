@@ -34,17 +34,17 @@ public class ReverseDoublyLinkedList {
     }
 
     // Iterative
-    Node reverse(Node head) {
-        Node temp = head;
-        Node newHead = head;
-
-        while (temp != null) {
-            Node prev = temp.prev;
-            temp.prev = temp.next;
-            temp.next = prev;
-            newHead = temp;
-            temp = temp.prev;
-        }
-        return newHead;
-    }
+//    Node reverse(Node head) {
+//        Node temp = head;
+//        Node newHead = head;
+//
+//        while (temp != null) {
+//            Node prev = temp.prev;
+//            temp.prev = temp.next;
+//            temp.next = prev;
+//            newHead = temp;
+//            temp = temp.prev;
+//        }
+//        return newHead;
+//    }
 }
