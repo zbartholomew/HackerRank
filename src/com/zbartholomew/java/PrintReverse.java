@@ -13,8 +13,6 @@ public class PrintReverse {
         Node next;
     }
 
-    // This is a "method-only" submission.
-    // You only need to complete this method.
 
     void ReversePrint(Node head) {
         if (head == null) {
